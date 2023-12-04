@@ -1,0 +1,25 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+.content {
+    padding-top: 10px; /* Removed the extra semicolon here */
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+
+    /* Angular component styling */
+    ::ng-deep mat-form-field {
+        width: 100%;
+    }
+}
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+    margin-left: 16px;
+  }
+  .action{
+    padding: 0px 25px 20px;
+    button{
+        flex: 1;
+    }
+
+  }
+  

@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "fullName": "test user",
+      "email": "test1@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "fullName": "test Data",
+      "email": "test@gmail.com",
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "employees": [
+    {
+      "firstName": "test2",
+      "lastName": "test2",
+      "email": "test2@gmail.com",
+      "dob": "2023-11-08T23:00:00.000Z",
+      "gender": "Female",
+      "education": "BAC+3/4",
+      "company": "inseaaa",
+      "experience": 8,
+      "package": "34",
+      "id": 2
+    },
+    {
+      "firstName": "test3",
+      "lastName": "test3",
+      "email": "test3@gmail.com",
+      "dob": "2023-11-05T23:00:00.000Z",
+      "gender": "Male",
+      "education": "MASTER",
+      "company": "Googlle",
+      "experience": "6",
+      "package": "17",
+      "id": 3
+    },
+    {
+      "firstName": "test2",
+      "lastName": "test",
+      "email": "tse@gmail.com",
+      "dob": "2023-11-12T23:00:00.000Z",
+      "gender": "Male",
+      "education": "BAC+2",
+      "company": "gf",
+      "experience": "6",
+      "package": "7",
+      "id": 4
+    },
+    {
+      "firstName": "Mohammed Ilyasss",
+      "lastName": "El hamdaoui",
+      "email": "medilyasselhamdaoui@gmail.com",
+      "dob": "",
+      "gender": "Male",
+      "education": "BAC+2",
+      "company": "google",
+      "experience": "6",
+      "package": "5677",
+      "id": 5
+    }
+  ]
+}

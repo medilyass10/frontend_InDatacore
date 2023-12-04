@@ -1,0 +1,45 @@
+<div class="toolbar-container">
+  <mat-toolbar class="compact-toolbar">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Menu</span>
+    <span class="example-spacer"></span>
+
+    <select id="chartTypeSelector" (change)="onChartTypeChange($event)">
+      <option value="bar">Bar Chart</option>
+      <option value="pie">Pie Chart</option>
+      <option value="doughnut">Doughnut Chart</option>
+      <option value="polarArea">Polar Area Chart</option>
+      <option value="radar">Radar Chart</option>
+    </select>
+
+    
+  </mat-toolbar>
+
+  <button mat-button [matMenuTriggerFor]="menu"><mat-icon></mat-icon></button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item> <a [routerLink]="['/Charts']">Chart</a> </button>
+    <button mat-menu-item><a [routerLink]="['/home']">Datatable</a></button>
+    <button mat-menu-item><a [routerLink]="['/Upload']">Upload</a></button>
+    <p-button label="Sign out" (click)="logOut()"></p-button>
+  </mat-menu>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <canvas id="chartCanvas"></canvas>
+    </div>
+  </div>
+</div>
+<div class="row">
+    
+  <div class="col-lg-6">
+      <h2>Bar Chart</h2>
+      <canvas id="barchart"></canvas>
+  </div>
+  <div class="col-lg-6">
+      <h2>Pie Chart</h2>
+      <canvas id="piechart"></canvas>
+  </div>
